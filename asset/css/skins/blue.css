@@ -16,7 +16,7 @@ File Description: Blue Skin
 
 a, .text-default
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 a:hover,
@@ -28,14 +28,14 @@ a:focus
 mark,
 .mark
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
 .table > thead > tr > th
 {
-    border-bottom: 1px solid #224099;
-    background-color: #224099;
+    border-bottom: 1px solid #8D0000;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
@@ -49,7 +49,7 @@ mark,
 
 .default-bg
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
@@ -66,7 +66,7 @@ mark,
 
 .blogpost .post-info
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
@@ -74,19 +74,19 @@ mark,
 {
     background-color: transparent;
     border-color: transparent;
-    color: #224099;
+    color: #8D0000;
 }
 
 .blogpost ul.links li a:hover
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 /* timeline layout */
 
 .timeline-date-label
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 @media (min-width: 768px)
@@ -94,7 +94,7 @@ mark,
     .timeline .timeline-item:before
     {
         background-color: #ffffff;
-        border: 1px solid #224099;
+        border: 1px solid #8D0000;
     }
 }
 
@@ -113,8 +113,8 @@ mark,
 .open .dropdown-toggle.btn-gray
 {
     color: #ffffff;
-    background-color: #224099;
-    border-color: #224099;
+    background-color: #8D0000;
+    border-color: #8D0000;
 }
 
 /* Light Gray Buttons */
@@ -126,15 +126,15 @@ mark,
 .open .dropdown-toggle.btn-light-gray
 {
     color: #ffffff;
-    background-color: #224099;
-    border-color: #224099;
+    background-color: #8D0000;
+    border-color: #8D0000;
 }
 
 /* Default Buttons */
 
 .btn-default
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #ffffff !important;
     border-color: #2c5fb3;
 }
@@ -165,7 +165,7 @@ fieldset[disabled] .btn-default
 {
     background-color: transparent;
     color: #2c5fb3;
-    border: 1px solid #224099;
+    border: 1px solid #8D0000;
 }
 
 .btn-white:hover,
@@ -203,7 +203,7 @@ fieldset[disabled] .btn-default
 
 .default-bg .form-control
 {
-    border-color: #224099;
+    border-color: #8D0000;
     background-color: rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.35);
     box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.35);
@@ -212,14 +212,14 @@ fieldset[disabled] .btn-default
 
 .default-bg .form-control:focus
 {
-    border-color: #224099;
+    border-color: #8D0000;
     background-color: rgba(0, 0, 0, 0.25);
 }
 
 .default-bg .input-group-addon
 {
     background-color: #2c5fb3;
-    border-color: #224099;
+    border-color: #8D0000;
     color: #ffffff;
 }
 
@@ -227,7 +227,7 @@ fieldset[disabled] .btn-default
 .dropdown a:hover .badge,
 .dropdown .open > a > .badge
 {
-    border-color: #224099;
+    border-color: #8D0000;
 }
 
 /* Pager
@@ -236,8 +236,8 @@ fieldset[disabled] .btn-default
 ul.pagination li > a:hover {
 	background-color: transparent;
 	color: #ffffff;
-	background-color: #224099;
-	border-color: #224099;
+	background-color: #8D0000;
+	border-color: #8D0000;
 }
 
 ul.pagination li.active a,
@@ -245,8 +245,8 @@ ul.pagination li.active a,
 .pagination > .active > a:focus
 {
     color: #ffffff;
-    background-color: #224099;
-    border-color: #224099;
+    background-color: #8D0000;
+    border-color: #8D0000;
 }
 
 /* Tabs
@@ -254,7 +254,7 @@ ul.pagination li.active a,
 
 .nav-tabs > li.active > a:after
 {
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 .tab-content:after
@@ -266,7 +266,7 @@ ul.pagination li.active a,
 {
     .nav-tabs > li > a:hover:after
     {
-        background-color: #224099;
+        background-color: #8D0000;
     }
 }
 
@@ -274,7 +274,7 @@ ul.pagination li.active a,
 
 .tabs-style-2 .nav-tabs
 {
-    border-bottom: 1px solid #224099;
+    border-bottom: 1px solid #8D0000;
 }
 
 .tabs-style-2 .nav-tabs > li.active > a,
@@ -282,8 +282,8 @@ ul.pagination li.active a,
 .tabs-style-2 .nav-tabs > li.active > a:focus,
 .tabs-style-2 .nav-tabs > li > a:hover
 {
-    border: 1px solid #224099;
-    background-color: #224099;
+    border: 1px solid #8D0000;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
@@ -291,7 +291,7 @@ ul.pagination li.active a,
 
 .vertical .nav-tabs > li > a:hover:after
 {
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 /* Nav pills
@@ -304,13 +304,13 @@ ul.pagination li.active a,
 .nav-pills > li > a:focus
 {
     border: 1px solid #f3f3f3;
-    color: #224099;
+    color: #8D0000;
     background-color: #fafafa;
 }
 
 .nav-pills > li.active > a:after
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .nav-pills > li.active > a:hover:after,
@@ -318,7 +318,7 @@ ul.pagination li.active a,
 .nav-pills > li > a:hover:after,
 .nav-pills > li > a:focus:after
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .light .footer-content .nav-pills > li.active > a:hover,
@@ -339,14 +339,14 @@ ul.pagination li.active a,
 
 .panel-heading a
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
 .panel-heading a:hover,
 .panel-transparent .panel-heading a:hover
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
@@ -355,7 +355,7 @@ ul.pagination li.active a,
 
 .progress-bar-default
 {
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 /* Modals
@@ -363,7 +363,7 @@ ul.pagination li.active a,
 
 .modal-content .modal-header
 {
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 /* Images and Images overlay
@@ -371,19 +371,19 @@ ul.pagination li.active a,
 
 .overlay a
 {
-    color: #224099;
+    color: #8D0000;
     background-color: #ffffff;
 }
 
 .overlay-links a + a
 {
     color: #ffffff;
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 a.overlay i
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 /* 5 Navigations
@@ -394,7 +394,7 @@ a.overlay i
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus
 {
-    color: #224099;
+    color: #8D0000;
     background-color: transparent;
 }
 
@@ -421,7 +421,7 @@ a.overlay i
 .dropdown-menu .menu > .active > a:focus
 {
     background-color: #ffffff;
-    color: #224099;
+    color: #8D0000;
     border-color: #f1f1f1;
 }
 
@@ -432,7 +432,7 @@ a.overlay i
 #offcanvas .nav > li > a:focus,
 #offcanvas .navbar-nav > li.active > a
 {
-    color: #224099;
+    color: #8D0000;
     background-color: #ffffff;
 }
 
@@ -442,7 +442,7 @@ a.overlay i
 .mega-menu .menu > li > a:focus
 {
     background-color: #ffffff;
-    color: #224099;
+    color: #8D0000;
     border-color: #f1f1f1;
 }
 
@@ -450,7 +450,7 @@ a.overlay i
 
 .navbar-default .navbar-nav > .active.dropdown > a:before
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .navbar-default .navbar-nav > .dropdown.open > a:before
@@ -461,7 +461,7 @@ a.overlay i
 .dropdown .dropdown.open > a:before,
 .transparent.header:not(.dark) .dropdown .dropdown.open > a:before
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 /* mobile menu toggle button on hover/focus */
@@ -470,13 +470,13 @@ a.overlay i
 .navbar-default .navbar-toggle:focus
 {
     background-color: #fafafa;
-    border-color: #224099;
+    border-color: #8D0000;
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar
 {
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 @media (max-width: 767px)
@@ -485,7 +485,7 @@ a.overlay i
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus
     {
-        color: #224099;
+        color: #8D0000;
         background-color: transparent;
     }
 /* first level items hover and focus states */
@@ -494,14 +494,14 @@ a.overlay i
   .navbar-default .navbar-nav > .active > a:hover,
   .navbar-default .navbar-nav > .active > a:focus
     {
-        color: #224099;
+        color: #8D0000;
         background-color: #ffffff;
     }
 /* second level items on hover/focus */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
     {
-        color: #224099;
+        color: #8D0000;
     }
 }
 
@@ -513,7 +513,7 @@ a.overlay i
 .subfooter .navbar-default .nav > .active > a:focus
 {
     background-color: transparent;
-    color: #224099;
+    color: #8D0000;
 }
 
 /* 6 Blocks/Widgets
@@ -524,18 +524,18 @@ a.overlay i
 
 .box.gray-bg:hover
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .box.default-bg:hover
 {
     background-color: #ffffff;
-    border: 1px solid #224099;
+    border: 1px solid #8D0000;
 }
 
 .box.default-bg:hover *
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .box-style-1:not(.team-member):hover i
@@ -552,33 +552,33 @@ a.overlay i
 .box-style-2:hover .default-bg
 {
     background-color: #ffffff;
-    border: 1px solid #224099;
+    border: 1px solid #8D0000;
 }
 
 .box-style-2:hover .default-bg *
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .box-style-2:hover .white-bg *
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .box-style-3:hover .default-bg
 {
     background-color: #ffffff;
-    border: 1px solid #224099;
+    border: 1px solid #8D0000;
 }
 
 .box-style-3:hover .default-bg *
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .box-style-3:hover .white-bg *
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 /* Tags cloud block
@@ -587,8 +587,8 @@ a.overlay i
 .tag a:hover
 {
     color: #ffffff;
-    background-color: #224099;
-    border-color: #224099;
+    background-color: #8D0000;
+    border-color: #8D0000;
 }
 
 /* Social icons block
@@ -596,8 +596,8 @@ a.overlay i
 
 .social-links li a
 {
-    background: #224099;
-    border: 1px solid #224099;
+    background: #8D0000;
+    border: 1px solid #8D0000;
     color: #ffffff;
 }
 
@@ -611,7 +611,7 @@ a.overlay i
 .social-links .dropdown.open > button > i:before
 {
     content: "\f00d";
-    color: #224099;
+    color: #8D0000;
 }
 
 .header-top .social-links li a:hover
@@ -625,7 +625,7 @@ a.overlay i
 .header-top-dropdown .dropdown.open > button,
 .header-top-dropdown .dropdown > button:hover
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 /* Pricing tables
@@ -633,24 +633,24 @@ a.overlay i
 
 .plan .popover-title
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #ffffff;
 }
 
 .gray .plan .header h3
 {
-    color: #224099;
+    color: #8D0000;
 }
 
 .white .plan .header
 {
     color: #ffffff;
-    background: #224099;
+    background: #8D0000;
 }
 
 .stripped .header
 {
-    background: #224099;
+    background: #8D0000;
     -webkit-box-shadow: 0px 0px 60px #2c5fb3 inset;
     -moz-box-shadow: 0px 0px 60px #2c5fb3 inset;
     box-shadow: 0px 0px 60px #2c5fb3 inset;
@@ -672,13 +672,13 @@ a.overlay i
 .tparrows.round:hover
 {
     color: #ffffff;
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 .tp-bullets.simplebullets.round .bullet:hover,
 .tp-bullets.simplebullets.round .bullet.selected
 {
-    background-color: #224099;
+    background-color: #8D0000;
 }
 
 .tp-bannertimer
@@ -691,20 +691,20 @@ a.overlay i
 
 .owl-prev
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #f1f1f1;
 }
 
 .owl-next
 {
     background-color: #f1f1f1;
-    color: #224099;
+    color: #8D0000;
 }
 
 .content-slider-with-controls .owl-buttons div,
 .content-slider-with-controls-autoplay .owl-buttons div
 {
-    background-color: #224099;
+    background-color: #8D0000;
     color: #f1f1f1;
 }
 
@@ -714,13 +714,13 @@ a.overlay i
 .content-slider-with-controls-autoplay .owl-next:hover
 {
     background-color: #f1f1f1;
-    color: #224099;
+    color: #8D0000;
 }
 
 .owl-controls .owl-page.active span,
 .owl-controls.clickable .owl-page:hover span
 {
-    background: #224099;
+    background: #8D0000;
 }
 
 /*# sourceMappingURL=blue.css.map */

@@ -4767,8 +4767,8 @@ fieldset[disabled] .btn-warning.focus
 .btn-danger
 {
     color: #fff;
-    background-color: #d9534f;
-    border-color: #d43f3a;
+    background-color: #8D0000;
+    border-color: #8D0000;
 }
 
 .btn-danger:focus,
@@ -4776,14 +4776,14 @@ fieldset[disabled] .btn-warning.focus
 {
     color: #fff;
     background-color: #c9302c;
-    border-color: #761c19;
+    border-color: #c9302c;
 }
 
 .btn-danger:hover
 {
     color: #fff;
     background-color: #c9302c;
-    border-color: #ac2925;
+    border-color: #c9302c;
 }
 
 .btn-danger:active,
