@@ -39,3 +39,25 @@ File Description: Place here your custom CSS styles
   .my-float{
     margin-left: 0.2vh;
   }
+
+  @media screen and (min-width: 800px) {
+    .propertytable{
+       padding-left: 15vh;
+       padding-right: 15vh;
+    }
+ }
+
+ @media screen and (max-width: 455px) {
+  .tablefont{
+    font-size: revert;
+    font-size:x-small;
+  }
+}
+
+@media screen and (min-width: 455px) {
+  .tableheadfont{
+    font-size: revert;
+    font-size:large;
+  }
+}
+
