@@ -7,12 +7,15 @@
   <head content="skegness springs">
     <meta charset="utf-8" />
     <title>Welcome to Steel Corporation</title>
-    <meta name="description" content="Commercial Spring Manufacturer in Skegness"/>
+    <meta
+      name="description"
+      content="Commercial Spring Manufacturer in Skegness"
+    />
     <meta name="author" content="" />
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./asset/images/favicon.png" />
+    <link rel="shortcut icon" href="../asset/images/favicon.png" />
     <!-- Web Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext"
@@ -29,10 +32,10 @@
       rel="stylesheet"
     />
     <!-- Bootstrap core CSS -->
-    <link href="asset/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../asset/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <!-- Font Awesome CSS -->
     <link
-      href="asset/fonts/font-awesome/css/font-awesome.css"
+      href="../asset/fonts/font-awesome/css/font-awesome.css"
       rel="stylesheet"
     />
     <script
@@ -40,35 +43,35 @@
       crossorigin="anonymous"
     ></script>
     <!-- Fontello CSS -->
-    <link href="asset/fonts/fontello/css/fontello.css" rel="stylesheet" />
+    <link href="../asset/fonts/fontello/css/fontello.css" rel="stylesheet" />
     <!-- Plugins -->
     <link
-      href="asset/plugins/rs-plugin/css/settings.css"
+      href="../asset/plugins/rs-plugin/css/settings.css"
       media="screen"
       rel="stylesheet"
     />
     <link
-      href="asset/plugins/rs-plugin/css/extralayers.css"
+      href="../asset/plugins/rs-plugin/css/extralayers.css"
       media="screen"
       rel="stylesheet"
     />
     <link
-      href="asset/plugins/magnific-popup/magnific-popup.css"
+      href="../asset/plugins/magnific-popup/magnific-popup.css"
       rel="stylesheet"
     />
-    <link href="./asset/css/animations.css" rel="stylesheet" />
+    <link href="../asset/css/animations.css" rel="stylesheet" />
     <link
-      href="./asset/plugins/owl-carousel/owl.carousel.css"
+      href="../asset/plugins/owl-carousel/owl.carousel.css"
       rel="stylesheet"
     />
     <!-- iDea core CSS file -->
-    <link href="./asset/css/style.css" rel="stylesheet" />
+    <link href="../asset/css/style.css" rel="stylesheet" />
     <!-- Color Scheme (In order to change the color scheme, replace the red.css with the color scheme that you prefer)-->
-    <link href="./asset/css/skins/blue.css" rel="stylesheet" />
+    <link href="../asset/css/skins/blue.css" rel="stylesheet" />
     <!-- Custom css -->
-    <link href="./asset/css/custom.css" rel="stylesheet" />
+    <link href="../asset/css/custom.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./asset//bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../asset//bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $('#myModal').modal('show')
@@ -97,6 +100,28 @@
 
       gtag('config', 'UA-133428534-1')
     </script>
+    <style>
+      .img-tn {
+      max-width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      height: auto;
+      background: #fff;
+      box-shadow: 1px 1px 7px rgba(0,0,0,0.1);
+    }
+      ul {
+        list-style: none;
+        margin-bottom: 1.5em;
+      }
+      .main-image {
+        max-width: revert; 
+        width: 40vw;
+      }
+      .thumbnails li {
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+    </style>
   </head>
   <!-- body classes: 
 			"boxed": boxed layout mode e.g. <body class="boxed">
@@ -108,10 +133,6 @@
     <div class="scrollToTop">
       <i class="fa-sharp fa-solid fa-arrow-up"></i>
     </div>
-    <a href="https://wa.me/00919619116852" class="float">
-        <i class="fa-brands fa-whatsapp my-float"></i>
-        </a>
-    
     <!-- page wrapper start -->
     <!-- ================ -->
     <div class="page-wrapper">
@@ -140,7 +161,7 @@
                   >
                     <img
                       id="logo"
-                      src="asset/images/logo.png"
+                      src="../asset/images/logo.png"
                       style="display: flex; justify-content: center;"
                     />
                   </a>
@@ -186,7 +207,7 @@
                       >
                         <ul class="nav navbar-nav navbar-right">
                           <li class="scrollspy smooth-scroll">
-                            <a href="./index.html">Home</a>
+                            <a href="../index.html">Home</a>
                           </li>
                           <li class="dropdown">
                             <a
@@ -194,13 +215,13 @@
                               class="dropdown-toggle"
                               data-toggle="dropdown"
                               style="padding-right: 20px;"
-                            > <!--CAN REMOVE DATA-TOGGLE TO MAKE IT CLICKABLE-->
+                            >
                               Products
                             </a>
                             <ul class="dropdown-menu">
                               <li class="dropdown">
                                 <a
-                                  href="./product-annealed.html"
+                                  href="../product-annealed.html"
                                   class="dropdown-toggle"
                                   data-toggle="dropdown"
                                   style="padding-right: 20px;"
@@ -323,7 +344,7 @@
                             </ul>
                           </li>
                           <li>
-                            <a href="./contactus.html">Contact us</a>
+                            <a href="../contactus.html">Contact us</a>
                           </li>
                           <li>
                             <h4
@@ -341,7 +362,7 @@
                             class="visible-lg visible-md visible-sm hidden-xs"
                           >
                             <div
-                              class="btn btn-danger"
+                            type="button" class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop"
                               style="margin-top: 2px;"
                             >
                               Get a Quote
@@ -349,7 +370,7 @@
                           </li>
                           <li class="visible-xs hidden-sm hidden-md hidden-lg">
                             <div
-                              class="btn btn-danger"
+                            type="button" class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop"
                               style="margin-top: 10px; margin-left: 10px;"
                             >
                               Get a Quote
@@ -368,706 +389,529 @@
           </div>
         </div>
       </header>
-      
       <!-- header end -->
-      <!-- banner start -->
-      <!-- ================ -->
-      <div class="banner">
-        <!-- slideshow start -->
-        <!-- ================ -->
-        <div class="slideshow white-bg">
-          <!-- slider revolution start -->
-          <!-- ================ -->
-          <div class="slider-banner-container">
-            <div class="slider-banner-2">
-              <ul>
-                <!-- slide 1 start -->
-                <li
-                  data-transition="random-static"
-                  data-slotamount="7"
-                  data-masterspeed="500"
-                  data-saveperformance="on"
-                  data-title="Next Slide"
-                >
-                  <!-- main image -->
-                  <img
-                    src="./asset/images/slide1.jpg"
-                    alt="slidebg1"
-                    data-bgposition="center top"
-                    data-bgfit="cover"
-                    data-bgrepeat="no-repeat"
-                  />
-                  <!-- LAYER NR. 1 -->
-                  <div
-                    class="tp-caption default_bg large sft tp-resizeme"
-                    data-x="0"
-                    data-y="110"
-                    data-speed="700"
-                    data-start="1700"
-                    data-end="10000"
-                    data-endspeed="600"
-                  >
-                    <div style="color: #000;">Welcome To Steel Corporation</div>
-                  </div>
-                  <div
-                    class="tp-caption default_bg medium sft tp-resizeme"
-                    data-x="0"
-                    data-y="175"
-                    data-speed="700"
-                    data-start="1500"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    One Stop for Your Spring Steel Requirements - Cater to All
-                    Sizes
-                  </div>
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="250"
-                    data-speed="700"
-                    data-start="1300"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    Products:
-                  </div>
-                  <!-- LAYER NR. 2 -->
-                  <!-- LAYER NR. 3 -->
-                  <!-- LAYER NR. 4 -->
-                  <!-- LAYER NR. 5 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="290"
-                    data-speed="700"
-                    data-start="1100"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    <i
-                      class="fa fa-chevron-right text-info"
-                      style="color: #d30000;"
-                    ></i>
-                    Annealed Steel Strips
-                  </div>
-                  <!-- LAYER NR. 6 -->
-                  <!-- LAYER NR. 7 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="330"
-                    data-speed="700"
-                    data-start="900"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    <i
-                      class="fa fa-chevron-right text-info"
-                      style="color: #d30000;"
-                    ></i>
-                    Hard And Tempered Steel Strips
-                  </div>
-                  <!-- LAYER NR. 8 -->
-                  <!-- LAYER NR. 9 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="370"
-                    data-speed="700"
-                    data-start="700"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    <i
-                      class="fa fa-chevron-right text-info"
-                      style="color: #d30000;"
-                    ></i>
-                    Cold Rolled Steel Strips
-                  </div>
-                  <!-- LAYER NR. 10 -->
-                  <!-- LAYER NR. 11 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="410"
-                    data-speed="700"
-                    data-start="700"
-                    data-end="10000"
-                    data-endspeed="600"
-                  >
-                    <div class="btn btn-danger">Get a Quote</div>
-                  </div>
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="180"
-                    data-y="410"
-                    data-speed="700"
-                    data-start="700"
-                    data-end="10000"
-                    data-endspeed="600"
-                  >
-                    <div class="btn btn-danger">Watch Video</div>
-                  </div>
-                </li>
-                <li
-                  data-transition="random-static"
-                  data-slotamount="7"
-                  data-masterspeed="500"
-                  data-saveperformance="on"
-                  data-title="Next Slide"
-                >
-                  <!-- main image -->
-                  <img
-                    src="./asset/images/slide2.jpg"
-                    alt="slidebg1"
-                    data-bgposition="center top"
-                    data-bgfit="cover"
-                    data-bgrepeat="no-repeat"
-                  />
-                  <!-- LAYER NR. 1 -->
-                  <div
-                    class="tp-caption default_bg large sft tp-resizeme"
-                    data-x="0"
-                    data-y="110"
-                    data-speed="700"
-                    data-start="1700"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    Wide Range of Products
-                  </div>
-                  <div
-                    class="tp-caption default_bg medium sft tp-resizeme"
-                    data-x="0"
-                    data-y="175"
-                    data-speed="700"
-                    data-start="1500"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    Leading Suppliers of Spring Steel:
-                  </div>
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="250"
-                    data-speed="700"
-                    data-start="1300"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    <i
-                      class="fa fa-chevron-right text-info"
-                      style="color: #d30000;"
-                    ></i>
-                    Annealed
-                  </div>
-                  <!-- LAYER NR. 2 -->
-                  <!-- LAYER NR. 3 -->
-                  <!-- LAYER NR. 4 -->
-                  <!-- LAYER NR. 5 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="290"
-                    data-speed="700"
-                    data-start="1100"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    <i
-                      class="fa fa-chevron-right text-info"
-                      style="color: #d30000;"
-                    ></i>
-                    Hardened Tempered
-                  </div>
-                  <!-- LAYER NR. 6 -->
-                  <!-- LAYER NR. 7 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="330"
-                    data-speed="700"
-                    data-start="900"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    <i
-                      class="fa fa-chevron-right text-info"
-                      style="color: #d30000;"
-                    ></i>
-                    Cold Rolled Coils
-                  </div>
-                  <!-- LAYER NR. 8 -->
-                  <!-- LAYER NR. 9 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="370"
-                    data-speed="700"
-                    data-start="700"
-                    data-end="10000"
-                    data-endspeed="600"
-                    style="color: #000;"
-                  >
-                    <i
-                      class="fa fa-chevron-right text-info"
-                      style="color: #d30000;"
-                    ></i>
-                    For use in performance critical applications
-                  </div>
-                  <!-- LAYER NR. 10 -->
-                  <!-- LAYER NR. 11 -->
-                  <div
-                    class="tp-caption light_gray_bg sft medium tp-resizeme"
-                    data-x="0"
-                    data-y="410"
-                    data-speed="700"
-                    data-start="700"
-                    data-end="10000"
-                    data-endspeed="600"
-                  >
-                    <div class="btn btn-danger">Show Products</div>
-                  </div>
-                </li>
-                <!-- slide 1 end -->
-                <!-- slide 2 start -->
-                <!-- slide 2 end -->
-                <!-- slide 3 start -->
-                <!-- slide 3 end -->
-              </ul>
-              <div class="tp-bannertimer tp-bottom"></div>
-            </div>
-          </div>
-          <!-- slider revolution end -->
-        </div>
-        <!-- slideshow end -->
+      
+
+
+
+
+      <div class="banner" style="position: relative; text-align: center;">
+          <img src="./../asset/images/slide1.jpg" width="100%" data-bgfit="cover" style="height: 50vh;"/>
+          <h2 class="centered" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;"><b>
+            ANNEALED C-80
+          </b>
+          </h2>
       </div>
-      <!-- banner end -->
-      <!-- page-top start-->
-      <!-- ================ -->
-      <div
-        class="page-top object-non-visible"
-        data-animation-effect="fadeInUpSmall"
-        data-effect-delay="100"
-        id="about"
-        style="padding-top: 60px; padding-bottom: 60px;"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <br />
-              <h2 class="text-center text-danger" style="margin-top: -10px;">
-                Welcome to Steel Corporation
-              </h2>
-              <h3 class="text-center" style="margin-top: 20px;">
-                One Stop for Your Spring Steel Requirements - Cater to All Sizes
-              </h3>
-            </div>
-            <div class="col-md-12 col-md-offset-0">
-              <br />
-              <p class="text-center">
-                We are a family owned business established in 1972. Over the
-                years, all partners and employees have put in great efforts to
-                attain excellent reputation and credibility with customers and
-                suppliers in India and overseas. Our focus has always been
-                supplying quality material within set delivery timelines. Steel
-                Corporation has evolved to meet the demands of the domestic and
-                worldwide markets and now has various production and
-                stockholding facilities.
-                <br />
-                <br />
-                We are committed to supply high quality strips to our customers
-                and provide top tier service. Being an ISO 9001 certified
-                company as well as a CRISIL rated company, we have ensured set
-                procedure and standardized across all teams. We also have in
-                house required testing facilities such as Rockwell, Vickers
-                hardness testers, Spectrometer, Microscope, Muffle furnace and
-                the latest Calibrated Dimensions Measuring Instrument.
-              </p>
-            </div>
-          </div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">GET A QUOTE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="margin-bottom: 3vh;">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Name" name="name" value="">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="email" class="form-label">Email address</label>
+          <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="email">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="mobile" class="form-label">Mobile</label>
+          <input type="text" class="form-control" id="mobile" placeholder="Mobile" name="mobile" value="">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" value="">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="Message" class="form-label">Message</label>
+          <input type="text" rows="4" cols="50" class="form-control" id="message" placeholder="Message" name="message" value="">
+          <div class="formErrorGuidText"></div>
         </div>
       </div>
-      <div
-        class="page-top object-non-visible bg-success"
-        data-animation-effect="fadeInUpSmall"
-        data-effect-delay="100"
-        id="about"
-      >
-        <div class="container" id="Products">
-          <div class="row">
-            <div
-              class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1"
-            >
-              <h4 class="text-center">
-                <span>
-                  <b class="text-danger" >
-                    EVERYTHING WE PRODUCE IS DESIGNED AND MADE TO ORDER.
-                  </b>
-                </span>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <br />
-          <div class="row">
-            <!-- main start -->
-            <!-- ================ -->
-            <div
-              class="main col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0"
-            >
-              <!-- page-title start -->
-              <!-- ================ -->
-              <br />
-              <br />
-              <!-- page-title end -->
-              <!-- Image Boxes start -->
-              <!-- ============================================================================== -->
-              <div class="row grid-space-20">
-                <div
-                  class="col-sm-6 col-md-offset-0 col-lg-offset-0 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-4 col-lg-4"
-                >
-                  <br />
-                  <div
-                    class="image-box mb-20 object-non-visible"
-                    data-animation-effect="fadeInLeft"
-                    data-effect-delay="300"
-                  >
-                    <div class="overlay-container">
-                      <img src="./asset/images/annealed.jpg" alt="" />
-                      <div class="overlay">
-                        <div class="overlay-links">
-                          <a href="./product-annealed.html">
-                            <p class="text-danger"
-                              style="
-                                font-size: small;
-                                margin-top: 14%;
-                                font-weight: 800;
-                              "
-                            >
-                              VIEW PRODUCT
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-md-12 col-lg-12 col-sm-12 col-xs-12"
-                      style="background-color: #fafafa; min-height: 175px;"
-                    >
-                      <br />
-                      <h4>
-                        <a
-                          href="./product-annealed.html"
-                          style="
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                          "
-                        >
-                          <b class="text-danger">ANNEALED STEEL STRIPS</b>
-                        </a>
-                      </h4>
-                      <div
-                        style="
-                          display: flex;
-                          align-items: center;
-                          justify-content: center;
-                          min-height: 80px;
-                        "
-                        class="text-center"
-                      >
-                        <p style="color: #000;">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Integer aliquet gravida velit
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-sm-6 col-xs-10 col-xs-offset-1 col-md-offset-0 col-lg-offset-0 col-sm-offset-0 col-md-4 col-lg-4"
-                >
-                  <br />
-                  <div
-                    class="image-box mb-20 object-non-visible"
-                    data-animation-effect="fadeInLeft"
-                    data-effect-delay="300"
-                  >
-                    <div class="overlay-container">
-                      <img src="./asset/images/hardened.jpg" alt="" />
-                      <div class="overlay">
-                        <div class="overlay-links">
-                          <a href="./product-hardened.html">
-                            <p class="text-danger"
-                              style="
-                                font-size: small;
-                                margin-top: 14%;
-                                font-weight: 800;
-                              "
-                            >
-                              VIEW PRODUCT
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-md-12 col-lg-12 col-sm-12 col-xs-12"
-                      style="background-color: #fafafa; min-height: 175px;"
-                    >
-                      <br />
-                      <h4>
-                        <a
-                          href="./product-hardened.html"
-                          style="
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                          "
-                        >
-                          <b class="text-danger">HARDENED & TEMPERED</b>
-                        </a>
-                      </h4>
-                      <div
-                        style="
-                          display: flex;
-                          align-items: center;
-                          justify-content: center;
-                          min-height: 80px;
-                        "
-                        class="text-center"
-                      >
-                        <p style="color: #000;">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Integer aliquet gravida velit
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-sm-6 col-xs-10 col-xs-offset-1 col-md-offset-0 col-lg-offset-0 col-sm-offset-0 col-md-4 col-lg-4"
-                >
-                  <br />
-                  <div
-                    class="image-box mb-20 object-non-visible"
-                    data-animation-effect="fadeInLeft"
-                    data-effect-delay="300"
-                  >
-                    <div class="overlay-container">
-                      <img src="asset/images/coldrolled.jpg" alt="" />
-                      <div class="overlay">
-                        <div class="overlay-links">
-                          <a href="#">
-                            <p class="text-danger"
-                              style="
-                                font-size: small;
-                                margin-top: 14%;
-                                font-weight: 800;
-                              "
-                            >
-                              VIEW PRODUCT
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-md-12 col-lg-12 col-sm-12 col-xs-12"
-                      style="background-color: #fafafa; min-height: 175px;"
-                    >
-                      <br />
-                      <h4>
-                        <a
-                          href="#"
-                          style="
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                          "
-                        >
-                          <b class="text-danger">COLLED ROLLED STRIPS</b>
-                        </a>
-                      </h4>
-                      <div
-                        style="
-                          display: flex;
-                          align-items: center;
-                          justify-content: center;
-                          min-height: 80px;
-                        "
-                        class="text-center"
-                      >
-                        <p style="color: #000;">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Integer aliquet gravida velit
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-danger" id="btn">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="container-fluid" style="background-color:white; margin: 15vh; padding: 10px; box-shadow: 01px 01px 3px 01px;">
+          <!-- <img src="../asset/images/annealed.jpg" style="background-color: black; height: 70vh; " width="100%"/> 
+          <img src="../asset/images/annealed.jpg" style="max-width: revert; width: 90vw; margin: 30px;"/>-->
+          
+
+          <div class="container-fluid text-center">
+            <div class="row text-center" style="margin-bottom: 4vh; margin-top: 2vh;">
+              <div class="col-sm-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-10 col-xs-offset-1 col-md-4 col-lg-5">
+                <h3 style="margin-top: 2vh; color: #8D0000; margin-bottom: 2vh; font-weight: 500;">ANNEALED C-80</h3>
+                <p style="text-align: justify;"><strong>THIS GRADE OF STEEL IS POPULARLY KNOWN AS SPRING STEEL STRIP ANNEALED, SPRING STEEL STRIP UNHARDENED, HIGH CARBON STEEL STRIP, COLD ROLLED STEEL STRIP.</strong></p>
+                  <p style="font-weight: 300; text-align: justify;">
+                    This is a High Carbon cold rolled steel strip, with Spherodized 
+                    grain structure, this steel is with a very high yield strength. 
+                    This allows objects made of this steel to return to their original 
+                    shape despite significant bending or twisting after hardening and tempering.
+                  Usually in soft annealed condition but can also be supplied in temper rolled 
+                  hardness in range between 200-350 Hv (band range is+/- 40 Hv) 
+                  These grade of steel is used where fatigue value and elastic limits are 
+                  critical it is also used where high strength, hardness and wear resistant 
+                  is needed. These steel has good forming and blanking properties but 
+                  very poor drawing property.</p>
               </div>
-              <p><br /></p>
-            </div>
-            <!-- main end -->
-          </div>
-          <div class="row">
-            <br />
-          </div>
-        </div>
-      </div>
 
-      <!--STRIP-->
 
-      <div class="container-fluid bg-white text-center" style="padding-top: 40px; padding-bottom: 10px;">
-        <h2><b style="color: #000;">
-          WHY CHOOSE STEEL CORPORATION
-        </b></h2>
-        <div class="row" style="margin-top: 20px;">
-          <div class="column text-center">
-            <div>
-              <!-- <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="currentColor"
-                class="bi bi-aspect-ratio"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"
-                />
-                <path
-                  d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"
-                />
-              </svg> -->
-              <img src="./images/scale-up.png" height="60" width="60" style="display:revert">
-              <h5 style="margin-top: 2vh;">All Sizes Available</h5>
-            </div>
-          </div>
 
-          <div class="column text-center">
-            <div>
-              <!-- <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="currentColor"
-                class="bi bi-calendar2-check"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"
-                />
-                <path
-                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"
-                />
-                <path
-                  d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"
-                />
-              </svg> -->
-              <img src="./images/calendar.png" height="60" width="60" style="display:revert">
-              <h5 style="margin-top: 2vh;">
-                Delivery Within Promised Time Range
-              </h5>
-            </div>
-          </div>
 
-          <div class="column text-center">
-            <div>
-              <!-- <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="currentColor"
-                class="bi bi-tag"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"
-                />
-                <path
-                  d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"
-                />
-              </svg> -->
-              <img src="./images/price-tags.png" height="60" width="60" style="display:revert">
-              <h5 style="margin-top: 2vh;">Most Affordable Sizes</h5>
-            </div>
-          </div>
+              <div class="col-sm-0 col-md-offset-1 col-lg-offset-1 col-sm-offset-3 col-xs-10 col-xs-offset-2 col-md-4 col-lg-4 text-center" >
+                <!-- <div class="container" style="margin-top: 1vh;">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     Indicators 
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                
+                     Wrapper for slides 
+                    <div class="carousel-inner" style="display: flex;justify-content: center;">
+                      <div class="item active">
+                        <img src="../asset/images/annealed.jpg" alt="Los Angeles" style="max-width: revert; width: 40vw;">
+                      </div>
+                
+                      <div class="item">
+                        <img src="../asset/images/coldrolled.jpg" alt="Chicago" style="max-width: revert; width: 40vw;">
+                      </div>
+                    
+                      <div class="item">
+                        <img src="../asset/images/hardened.jpg" alt="New york" style="max-width: revert; width: 40vw;">
+                      </div>
+                    </div>
+                
+                     Left and right controls 
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <i class="fas fa-chevron-left" style="position: absolute;top: 50%;"></i>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <i class="fas fa-chevron-right" style="position: absolute;top: 50%;"></i>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div> -->
 
-          <div class="column text-center">
-            <div>
-              <img src="./images/iso.png" height="60" width="60" style="display:revert">
-              <h5 style="margin-top: 2vh;">ISO 9001 & CRISIL Certified</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div
-        data-animation-effect="fadeIn"
-        data-effect-delay="300"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <br />
-              <p class="text-center text-success">
-                Many of our springs operate in a 24/7 environment. With a
-                complete range of materials in stock and a production team
-                capable of meeting tight deadlines without compromising quality,
-                we can offer the flexibility to respond to the most urgent of
-                requirements &ndash; manufacturing and delivering on the same
-                day if necessary. From prototyping and one-off development items
-                to emergency assistance for breakdowns and large multi-batch
-                production runs, Skegness Springs apply the same exacting
-                standards at every stage of production. All the materials we use
-                conform to recognised British, European or International
-                standards and mechanical tests are performed throughout the
-                production process. We work to design and tolerance values
-                requested by our customer, or to standard specifications in
-                BS1726, EN13906 and EN15800. We are able to supply printed
-                load-test reports, material certificates and certificates of
-                conformity when required.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <div>
-        <div class="section dark-bg pattern-6">
-          <div class="container">
-            <div class="call-to-action">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="title text-center text-success">
-                    <br />
-                    For more information, please contact us on 
-                    <span><b class="text-muted">+91 9619116852</b></span>
-                    <br />
-                    <br />
-                  </h3>
+                <div class="main-image">
+                  <img src="./asset/images/annealed.jpg" alt="Placeholder" class="custom">
                 </div>
+                  <ul class="thumbnails col-sm-7 col-md-offset-3 col-lg-offset-3 col-sm-offset-0 col-xs-9 col-xs-offset-0 col-md-12 col-lg-12" style="display: flex;">
+                    <li><a href="./asset/images/annealed.jpg"><img class="img-tn" width="100" src="./asset/images/annealed.jpg" alt="Thumbnails"></a></li>
+                    <li><a href="./asset/images/coldrolled.jpg"><img class="img-tn" width="100" src="./asset/images/coldrolled.jpg" alt="Thumbnails"></a></li>
+                    <li><a href="./asset/images/hardened.jpg"><img class="img-tn" width="100" src="./asset/images/hardened.jpg" alt="Thumbnails"></a></li>
+                  </ul>
+              
+                
               </div>
+
+
+
+
+
+
+
+              
             </div>
-          </div>
-        </div>
-        <footer id="footer" class="light">
+
+
+            <div style="margin-left: 5vw;margin-right: 5vw;">
+
             
+            <ul class="nav nav-pills nav-justified">
+              <li class="active"><a data-toggle="pill" href="#properties" style="color: #8D0000;">PROPERTIES</a></li>
+              <li><a data-toggle="pill" href="#formofsupply" style="color: #8D0000;">FORM OF SUPPLY</a></li>
+              <li><a data-toggle="pill" href="#standardize" style="color: #8D0000;">STANDARD SIZE</a></li>
+              <li><a data-toggle="pill" href="#application" style="color: #8D0000;">APPLICATION</a></li>
+            </ul>
+            
+            <div class="tab-content text-center">
+              <div id="properties" class="tab-pane fade in active">
+                <h3><b>PROPERTIES</b></h3>
+                <br/>
+                
+                <div>
+                  <h6>Properties of C80 grade cold rolled annealed steel strips Chemical composition by weight</h6>
+                  <table class="table table-bordered" style="padding: 5vh;">
+                    <thead>
+                      <tr>
+                        <!-- <th style="background-color: #8D0000;">Firstname</th>
+                          <th style="background-color: #8D0000;">Lastname</th>
+                          <th style="background-color: #8D0000;">Email</th> -->
+                          <th style="background-color: #8D0000; width: 50%;">&nbsp;</th>
+                          <th style="background-color: #8D0000; width: 50%;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                    <tr>
+                      <td  class="text-left">CARBON</td>
+                      <td  class="text-right">0.75 - 0.85%</td>
+                    </tr>
+                    <tr>
+                      <td  class="text-left">MANGANESE</td>
+                      <td  class="text-right">0.60 - 0.90%</td>
+                    </tr>
+                    <tr>
+                      <td  class="text-left">SILICON</td>
+                      <td  class="text-right">0.0-0.35%</td>
+                    </tr>
+                    <tr>
+                      <td  class="text-left">SULPHUR</td>
+                      <td  class="text-right">	0.025%</td>
+                    </tr>
+                    <tr>
+                      <td  class="text-left">PHOSPHOROUS</td>
+                      <td  class="text-right">	0.025%</td>
+                    </tr>
+                  </tbody>
+                  </table>
+              
+                </div>
+
+
+
+                <div>
+                  <h6>Physical Properties of C80 grade cold rolled annealed steel strips</h6>
+                  <table class="table table-bordered" style="padding: 5vh;">
+                    <thead>
+                      <tr>
+                        <!-- <th style="background-color: #8D0000;">Firstname</th>
+                          <th style="background-color: #8D0000;">Lastname</th>
+                          <th style="background-color: #8D0000;">Email</th> -->
+                          <th style="background-color: #8D0000; width: 50%;">&nbsp;</th>
+                          <th style="background-color: #8D0000; width: 50%;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                    <tr>
+                      <td  class="text-left">HARDNESS IN ANNEALED CONDITION</td>
+                      <td  class="text-right">200Hv Max</td>
+                    </tr>
+                    <tr>
+                      <td  class="text-left">YIELD STRENGTH</td>
+                      <td  class="text-right">290 N/MM2</td>
+                    </tr>
+                    <tr>
+                      <td  class="text-left">ELONGATION</td>
+                      <td  class="text-right">25% Min</td>
+                    </tr>
+                    <tr>
+                      <td  class="text-left">TENSILE STRENGTH</td>
+                      <td  class="text-right">640N/mm2</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                 </div>
+              
+
+                 <div>
+                  <h6>Bend test When bending maintain radius</h6>
+                  <table class="table table-bordered" style="padding: 5vh;">
+                    <thead>
+                      <tr>
+                        <!-- <th style="background-color: #8D0000;">Firstname</th>
+                          <th style="background-color: #8D0000;">Lastname</th>
+                          <th style="background-color: #8D0000;">Email</th> -->
+                          <th style="background-color: #8D0000; width: 33%;">THICKNESS</th>
+                          <th style="background-color: #8D0000; width: 33%;">GRAIN WISE</th>
+                          <th style="background-color: #8D0000; width: 33%;">AGAINST GRAINS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="text-left">For thickness 4.00 mm to 2.50 mm</td>
+                          <td class="text-right">r=2t </td>
+                          <td class="text-right">not advised</td>
+                
+                        </tr>
+                        <tr>
+                          <td class="text-left">For thickness 2.30 mm to 1.20 mm</td>
+                          <td class="text-right">r=1t </td>
+                          <td class="text-right">not advised</td>
+                        
+                        </tr>
+                        <tr>
+                          <td class="text-left">For thickness 1.0 mm to 0.50 mm</td>
+                          <td class="text-right">r=0t </td>
+                          <td class="text-right">r=1t</td>
+                        
+                        </tr>
+                                     
+                        <tr>
+                          <td class="text-left">For thickness 0.45 mm to 0.20 mm</td>
+                          <td class="text-right">r=0t </td>
+                          <td class="text-right">r=0r </td>
+                          
+                        </tr>
+                        
+                        
+                                          
+                      </tbody>
+                  </table>
+                </div>
+
+
+                <div>
+                  <h6>'r' stands for radius of bend and 't' for thickness of strip. Other Properties</h6>
+                  <div style="display: flex; justify-content: center;">
+                    <img src="../asset/images/bendtest.png"/>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+              <div id="formofsupply" class="tab-pane fade">
+                <h3><b>FORM OF SUPPLY</b></h3>
+                <table class="table table-bordered" style="padding: 5vh; margin-top: 2vh;">
+                  <thead>
+                      <tr>
+                        <!-- <th style="background-color: #8D0000;">Firstname</th>
+                          <th style="background-color: #8D0000;">Lastname</th>
+                          <th style="background-color: #8D0000;">Email</th> -->
+                          <th style="background-color: #8D0000; width: 50%;"></th>
+                        </tr>
+                      </thead>
+                      <tbody class="text-left">
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; Usually in coils, thicker strips can also be supplied in cut to length and levelled strips</i></td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; Edges are slitted</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; Coil ID 300-500mm as per mutual agreement with buyer</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; Coil weight as per mutual understanding with buyer</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; Surface finish is bright suitable for electroplating</td>
+                        </tr>
+                      </tbody>
+                </table>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <div id="standardize" class="tab-pane fade">
+                <h3><b>STANDARD SIZE</b></h3>
+                <table class="table table-bordered" style="padding: 5vh; margin-top: 2vh;">
+                  <thead>
+                      <tr>
+                        <!-- <th style="background-color: #8D0000;">Firstname</th>
+                          <th style="background-color: #8D0000;">Lastname</th>
+                          <th style="background-color: #8D0000;">Email</th> -->
+                          <th style="background-color: #8D0000; width: 33%;"></th>
+                          <th style="background-color: #8D0000; width: 33%;"></th>
+                          <th style="background-color: #8D0000; width: 33%;"></th>
+                        </tr>
+                      </thead>
+                      <tbody class="text-left">
+                        <ul>
+                          <tr>
+
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 4.50mm + 0.07mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 3.50mm + 0.05mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 3.20mm + 0.05mm</td>
+                          </tr>
+                          <tr>
+                            
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 2.80mm + 0.05mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 2.60mm + 0.04mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 2.50mm + 0.04mm</td>
+                          </tr>
+                          
+                          <tr>
+
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 2.30mm + 0.04mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 2.00mm + 0.04mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 1.80mm + 0.04mm</td>
+                          </tr>
+
+                          <tr>
+                            
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 1.75mm + 0.04mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 1.50mm + 0.03mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 1.48mm + 0.03mm</td>
+                          </tr>
+                          <tr>
+
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 1.20mm + 0.03mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 1.0mm + 0.03mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.98mm + 0.03mm</td>
+                          </tr>
+                          <tr>
+                            
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.90mm + 0.03mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.80mm + 0.03mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.70mm + 0.03mm</td>
+                          </tr>
+                          <tr>
+                            
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.60mm + 0.03mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.50mm + 0.02mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.45mm + 0.02mm</td>
+                          </tr>
+                          <tr>
+                            
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.55mm + 0.02mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.40mm + 0.02mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.30mm + 0.02mm</td>
+                          </tr>
+                          <tr>
+
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.25mm + 0.02mm</td>
+                            <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; 0.20mm + 0.02mm</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+
+                            
+                          </ul>
+                        </tr>
+                      </tbody>
+                </table>
+              </div>
+
+
+
+
+
+
+
+
+              <div id="application" class="tab-pane fade">
+                <h3><b>APPLICATIONS</b></h3>
+                <table class="table table-bordered" style="padding: 5vh; margin-top: 2vh;">
+                  <thead>
+                      <tr>
+                        <!-- <th style="background-color: #8D0000;">Firstname</th>
+                          <th style="background-color: #8D0000;">Lastname</th>
+                          <th style="background-color: #8D0000;">Email</th> -->
+                          <th style="background-color: #8D0000; width: 50%;"></th>
+                          <th style="background-color: #8D0000; width: 50%;"></th>
+                        </tr>
+                      </thead>
+                      <tbody class="text-left">
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; FLAT SPRINGS</i></td>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; CIRCLIPS</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; DOWEL PINS</td>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; WAVE WASHERS</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; BELLEVILLE WASHERS</td>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; VARIOUS TYPES FASTENERS</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; CHAIN PARTS</td>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; CLIPS</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; AUTOMOTIVE CLUTCH PLATES</td>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; HORN DIAPHRAGM</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; CUTTING BLADES & GAUGES</td>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; AGRICULTURAL IMPLEMENTS</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; TEXTILE PARTS</td>
+                          <td><i class="fa-solid fa-square" style="color: #8D0000;"></i> &nbsp; HOSE CLIPS</td>
+                        </tr>
+                      </tbody>
+                </table>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        <footer id="footer" class="light">
           <!-- .footer start -->
           <!-- ================ -->
           <div class="footer">
@@ -1082,7 +926,7 @@
                       <div class="logo-footer" style="margin-top: 0px;">
                         <img
                           id="logo-footer"
-                          src="./asset/images/logo.png"
+                          src="./../asset/images/logo.png"
                           alt=""
                           style="margin-top: 0px;"
                           width="300px"
@@ -1131,7 +975,7 @@
                     "
                   >
                     <img
-                      src="./images/iso-logo.png"
+                      src="../images/iso-logo.png"
                       alt=""
                       class="text-left"
                       height="100"
@@ -1148,7 +992,7 @@
                     "
                   >
                     <img
-                      src="./images/crisil-logo.png"
+                      src="../images/crisil-logo.png"
                       alt=""
                       class="text-left"
                       
@@ -1170,13 +1014,13 @@
                         </a>
                       </li>
                       <li>
-                        <a href="./contactus.html">
+                        <a href="../contactus.html">
                           Contact
                         </a>
                       </li>
                       <li>
                         <a
-                          href="./hardness-conversion-table.html"
+                          href="../hardness-conversion-table.html"
                         >
                           Hardness Conversion Table
                         </a>
@@ -1249,67 +1093,101 @@
     <!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
     <!-- Jquery and Bootstap core js files -->
-    <script type="text/javascript" src="asset/plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="../asset/plugins/jquery.min.js"></script>
     <script
       type="text/javascript"
-      src="asset/bootstrap/js/bootstrap.min.js"
+      src="../asset/bootstrap/js/bootstrap.min.js"
     ></script>
     <!-- Modernizr javascript -->
-    <script type="text/javascript" src="asset/plugins/modernizr.js"></script>
+    <script type="text/javascript" src="../asset/plugins/modernizr.js"></script>
     <!-- jQuery REVOLUTION Slider  -->
     <script
       type="text/javascript"
-      src="asset/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"
+      src="../asset/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"
     ></script>
     <script
       type="text/javascript"
-      src="asset/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"
+      src="../asset/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"
     ></script>
     <!-- Isotope javascript -->
     <script
       type="text/javascript"
-      src="asset/plugins/isotope/isotope.pkgd.min.js"
+      src="../asset/plugins/isotope/isotope.pkgd.min.js"
     ></script>
     <!-- Owl carousel javascript -->
     <script
       type="text/javascript"
-      src="asset/plugins/owl-carousel/owl.carousel.js"
+      src="../asset/plugins/owl-carousel/owl.carousel.js"
     ></script>
     <!-- Magnific Popup javascript -->
     <script
       type="text/javascript"
-      src="asset/plugins/magnific-popup/jquery.magnific-popup.min.js"
+      src="../asset/plugins/magnific-popup/jquery.magnific-popup.min.js"
     ></script>
     <!-- Appear javascript -->
     <script
       type="text/javascript"
-      src="asset/plugins/jquery.appear.js"
+      src="../asset/plugins/jquery.appear.js"
     ></script>
     <!-- Count To javascript -->
     <script
       type="text/javascript"
-      src="asset/plugins/jquery.countTo.js"
+      src="../asset/plugins/jquery.countTo.js"
     ></script>
     <!-- Parallax javascript -->
-    <script src="asset/plugins/jquery.parallax-1.1.3.js"></script>
+    <script src="../asset/plugins/jquery.parallax-1.1.3.js"></script>
     <!-- Contact form -->
-    <script src="asset/plugins/jquery.validate.js"></script>
+    <script src="../asset/plugins/jquery.validate.js"></script>
     <!-- SmoothScroll javascript -->
     <script
       type="text/javascript"
-      src="asset/plugins/jquery.browser.js"
+      src="../asset/plugins/jquery.browser.js"
     ></script>
-    <script type="text/javascript" src="asset/plugins/SmoothScroll.js"></script>
+    <script type="text/javascript" src="../asset/plugins/SmoothScroll.js"></script>
     <!-- Initialization of Plugins -->
-    <script type="text/javascript" src="asset/js/template.js"></script>
+    <script type="text/javascript" src="../asset/js/template.js"></script>
     <!-- Custom Scripts -->
-    <script type="text/javascript" src="asset/js/custom.js"></script>
+    <script type="text/javascript" src="../asset/js/custom.js"></script>
     <!-- Background Video -->
-    <script src="asset/plugins/vide/jquery.vide.js"></script>
+    <script src="../asset/plugins/vide/jquery.vide.js"></script>
     <!-- Jasny Bootstrap -->
     <script
       type="text/javascript"
-      src="asset/plugins/jasny-bootstrap/js/jasny-bootstrap.js"
+      src="../asset/plugins/jasny-bootstrap/js/jasny-bootstrap.js"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+                <script src="./dist/jquery.simpleGal.js"></script>
+                <script>
+                $(document).ready(function () {
+                  $('.thumbnails').simpleGal({
+                    mainImage: '.custom'
+                  });
+                });
+                </script>
   </body>
+  <script src="./asset/smtp.js">
+  </script>
+  <script >
+      var btn = document.getElementById('btn');
+      btn.addEventListener('click',function(e){
+          e.preventDefault()
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+      var mobile = document.getElementById('mobile').value;
+      var subject = document.getElementById('subject').value;
+      var body = 'Name: ' + name + '<br/> Email Address: ' + email + '<br/> Mobile Number: '+mobile + '<br/> Message: '+message ;
+
+          Email.send({
+SecureToken : "c31ce42f-aba8-4929-85a6-1e32efde1861",
+To : 'acc.number.2004@gmail.com',
+From : 'acc.number.2004@gmail.com',
+Subject : subject,
+Body : body
+}).then(
+
+message => alert(message)
+);
+      })
+  </script>
 </html>
