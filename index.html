@@ -335,17 +335,17 @@
                           <li
                             class="visible-lg visible-md visible-sm hidden-xs"
                           >
-                            <div
-                              class="btn btn-danger"
-                              style="margin-top: 2px;"
-                            >
-                              Get a Quote
-                            </div>
+                          <div
+                          type="button" class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop"
+                            style="margin-top: 2px;"
+                          >
+                            Get a Quote
+                          </div>
                           </li>
                           <li class="visible-xs hidden-sm hidden-md hidden-lg">
                             <div
-                              class="btn btn-danger"
-                              style="margin-top: 10px; margin-left: 10px;"
+                            type="button" class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop"
+                              style="margin-top: 2px;"
                             >
                               Get a Quote
                             </div>
@@ -364,6 +364,60 @@
         </div>
       </header>
       <!-- header end -->
+
+
+    <!--Modal Start-->
+
+
+      <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">GET A QUOTE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="margin-bottom: 3vh;">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Name" name="name" value="">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="email" class="form-label">Email address</label>
+          <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="email">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="mobile" class="form-label">Mobile</label>
+          <input type="text" class="form-control" id="mobile" placeholder="Mobile" name="mobile" value="">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" value="">
+          <div class="formErrorGuidText"></div>
+        </div>
+        <div style="margin-bottom: 3vh;">
+          <label for="Message" class="form-label">Message</label>
+          <input type="text" rows="4" cols="50" class="form-control" id="message" placeholder="Message" name="message" value="">
+          <div class="formErrorGuidText"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-danger" id="btn">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Modal End-->
+
+
+
       <!-- banner start -->
       <!-- ================ -->
       <div class="banner">
@@ -641,7 +695,7 @@
                 <!-- slide 3 start -->
                 <!-- slide 3 end -->
               </ul>
-              <div class="tp-bannertimer tp-bottom="></div>
+              <div class="tp-bannertimer tp-bottom"></div>
             </div>
           </div>
           <!-- slider revolution end -->
