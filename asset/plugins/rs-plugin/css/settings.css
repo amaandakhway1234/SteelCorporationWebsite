@@ -1195,7 +1195,7 @@ border-style:none;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6) !important;
     font-size: 15px;
     line-height: 45px !important;
-    background: url(https://www.skegsprings.co.uk/../images/gradient/g30.png) repeat-x top;
+    background: url(../images/gradient/g30.png) repeat-x top;
     font-family: arial, sans-serif;
     font-weight: bold;
     letter-spacing: -1px;
@@ -1209,7 +1209,7 @@ border-style:none;
     padding: 9px 20px;
     font-size: 19px;
     line-height: 57px !important;
-    background: url(https://www.skegsprings.co.uk/../images/gradient/g40.png) repeat-x top;
+    background: url(../images/gradient/g40.png) repeat-x top;
 }
 
 .tp-simpleresponsive  .purchase:hover,
@@ -1396,7 +1396,7 @@ border-style:none;
 
 .tp-bannershadow.tp-shadow1
 {
-    background: url(https://www.skegsprings.co.uk/../assets/shadow1.png) no-repeat;
+    background: url(../assets/shadow1.png) no-repeat;
     background-size: 100% 100%;
     width: 890px;
     height: 60px;
@@ -1405,7 +1405,7 @@ border-style:none;
 
 .tp-bannershadow.tp-shadow2
 {
-    background: url(https://www.skegsprings.co.uk/../assets/shadow2.png) no-repeat;
+    background: url(../assets/shadow2.png) no-repeat;
     background-size: 100% 100%;
     width: 890px;
     height: 60px;
@@ -1414,7 +1414,7 @@ border-style:none;
 
 .tp-bannershadow.tp-shadow3
 {
-    background: url(https://www.skegsprings.co.uk/../assets/shadow3.png) no-repeat;
+    background: url(../assets/shadow3.png) no-repeat;
     background-size: 100% 100%;
     width: 890px;
     height: 60px;
@@ -1642,7 +1642,7 @@ border-style:none;
 {
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/bullet.png) no-Repeat top left;
+    background: url(../assets/bullet.png) no-Repeat top left;
     width: 20px;
     height: 20px;
     margin-right: 0px;
@@ -1660,7 +1660,7 @@ border-style:none;
 {
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/bullets.png) no-Repeat bottom left;
+    background: url(../assets/bullets.png) no-Repeat bottom left;
     width: 23px;
     height: 23px;
     margin-right: 0px;
@@ -1679,7 +1679,7 @@ border-style:none;
 {
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/bullets2.png) no-Repeat bottom left;
+    background: url(../assets/bullets2.png) no-Repeat bottom left;
     width: 19px;
     height: 19px;
     margin-right: 0px;
@@ -1698,7 +1698,7 @@ border-style:none;
 {
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/bullets2.png) no-Repeat bottom left;
+    background: url(../assets/bullets2.png) no-Repeat bottom left;
     width: 19px;
     height: 19px;
     margin-right: 0px;
@@ -1717,7 +1717,7 @@ border-style:none;
 {
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/bullet_boxed.png) no-Repeat top left;
+    background: url(../assets/bullet_boxed.png) no-Repeat top left;
     width: 18px;
     height: 19px;
     margin-right: 5px;
@@ -1741,7 +1741,7 @@ border-style:none;
 {
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/navigdots.png) no-Repeat bottom left;
+    background: url(../assets/navigdots.png) no-Repeat bottom left;
     width: 15px;
     height: 15px;
     margin-left: 5px !important;
@@ -1808,7 +1808,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../../../images/favicon.png) no-Repeat top left;
+    background: url(../assets/large_left.png) no-Repeat top left;
     width: 40px;
     height: 40px;
 }
@@ -1818,7 +1818,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../../../images/favicon.png) no-Repeat top left;
+    background: url(../assets/large_right.png) no-Repeat top left;
     width: 40px;
     height: 40px;
 }
@@ -1828,7 +1828,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../../../images/favicon.png) no-Repeat top left;
+    background: url(../assets/small_left.png) no-Repeat top left;
     width: 19px;
     height: 14px;
     margin-right: 0px;
@@ -1841,7 +1841,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../../../images/favicon.png) no-Repeat top left;
+    background: url(../assets/small_right.png) no-Repeat top left;
     width: 19px;
     height: 14px;
     margin-right: 0px;
@@ -1854,7 +1854,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../../../images/favicon.png) no-Repeat top left;
+    background: url(../assets/arrow_left.png) no-Repeat top left;
     width: 26px;
     height: 26px;
     margin-right: 0px;
@@ -1867,7 +1867,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../../../images/favicon.png) no-Repeat top left;
+    background: url(../assets/arrow_right.png) no-Repeat top left;
     width: 26px;
     height: 26px;
     margin-right: 0px;
@@ -1880,7 +1880,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/small_left_boxed.png) no-Repeat top left;
+    background: url(../assets/small_left_boxed.png) no-Repeat top left;
     width: 20px;
     height: 15px;
     float: left;
@@ -1893,7 +1893,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/small_right_boxed.png) no-Repeat top left;
+    background: url(../assets/small_right_boxed.png) no-Repeat top left;
     width: 20px;
     height: 15px;
     float: left;
@@ -1906,7 +1906,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/arrowleft.png) no-Repeat top left;
+    background: url(../assets/arrowleft.png) no-Repeat top left;
     width: 9px;
     height: 16px;
     float: left;
@@ -1919,7 +1919,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/arrowright.png) no-Repeat top left;
+    background: url(../assets/arrowright.png) no-Repeat top left;
     width: 9px;
     height: 16px;
     float: left;
@@ -1942,7 +1942,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/arrow_left2.png) no-Repeat top left;
+    background: url(../assets/arrow_left2.png) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1955,7 +1955,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/arrow_right2.png) no-Repeat top left;
+    background: url(../assets/arrow_right2.png) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1968,7 +1968,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/arrow_left2.png) no-Repeat top left;
+    background: url(../assets/arrow_left2.png) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1981,7 +1981,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/arrow_right2.png) no-Repeat top left;
+    background: url(../assets/arrow_right2.png) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1994,7 +1994,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/large_left.png) no-Repeat 0 0;
+    background: url(../assets/large_left.png) no-Repeat 0 0;
     width: 40px;
     height: 40px;
 }
@@ -2004,7 +2004,7 @@ border-style:none;
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(https://www.skegsprings.co.uk/../assets/large_right.png) no-Repeat 0 0;
+    background: url(../assets/large_right.png) no-Repeat 0 0;
     width: 40px;
     height: 40px;
 }
@@ -2165,12 +2165,12 @@ border-style:none;
 {
     width: 3000px;
     height: 1500px;
-    background: url(https://www.skegsprings.co.uk/../assets/coloredbg.png) repeat;
+    background: url(../assets/coloredbg.png) repeat;
 }
 
 .tp-caption.slidelink a span
 {
-    background: url(https://www.skegsprings.co.uk/../assets/coloredbg.png) repeat;
+    background: url(../assets/coloredbg.png) repeat;
 }
 
 /*****************************************
@@ -3084,7 +3084,7 @@ border-style:none;
 {
     width: 40px;
     height: 40px;
-    background: url(https://www.skegsprings.co.uk/../assets/loader.gif) no-repeat center center;
+    background: url(../assets/loader.gif) no-repeat center center;
     background-color: #fff;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
@@ -3115,7 +3115,7 @@ border-style:none;
 
 .tp-loader.spinner5
 {
-    background: url(https://www.skegsprings.co.uk/../assets/loader.gif) no-repeat 10px 10px;
+    background: url(../assets/loader.gif) no-repeat 10px 10px;
     background-color: #fff;
     margin: -22px -22px;
     width: 44px;
@@ -3283,7 +3283,7 @@ border-style:none;
 
 .tp-transparentimg
 {
-    content: "url(https://www.skegsprings.co.uk/../assets/transparent.png)";
+    content: "url(../assets/transparent.png)";
 }
 
 .tp-3d
