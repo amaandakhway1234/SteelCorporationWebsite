@@ -50,14 +50,14 @@ File Description: Place here your custom CSS styles
  @media screen and (max-width: 455px) {
   .tablefont{
     font-size: revert;
-    font-size:x-small;
+    font-size:xx-small;
   }
 }
 
 @media screen and (min-width: 455px) {
   .tableheadfont{
     font-size: revert;
-    font-size:large;
+    font-size:medium;
   }
 }
 
