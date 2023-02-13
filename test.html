@@ -412,12 +412,18 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">GET A QUOTE</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <div style="display: flex;">
+
+          <h5 class="modal-title" id="staticBackdropLabel">GET A QUOTE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="
+          float: right;
+          margin-left: auto;
+      ">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="padding-left: 4vh;padding-right: 4vh;">
         <div style="margin-bottom: 3vh;">
           <label for="name" class="form-label">Name</label>
           <input type="text" class="form-control" id="name" placeholder="Name" name="name" value="">
@@ -429,18 +435,13 @@
           <div class="formErrorGuidText"></div>
         </div>
         <div style="margin-bottom: 3vh;">
-          <label for="mobile" class="form-label">Mobile</label>
-          <input type="text" class="form-control" id="mobile" placeholder="Mobile" name="mobile" value="">
-          <div class="formErrorGuidText"></div>
-        </div>
-        <div style="margin-bottom: 3vh;">
           <label for="subject" class="form-label">Subject</label>
           <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" value="">
           <div class="formErrorGuidText"></div>
         </div>
         <div style="margin-bottom: 3vh;">
           <label for="Message" class="form-label">Message</label>
-          <input type="text" rows="4" cols="50" class="form-control" id="message" placeholder="Message" name="message" value="">
+          <textarea type="text" rows="4" cols="50" class="form-control" id="message" placeholder="Message" name="message" value=""></textarea>
           <div class="formErrorGuidText"></div>
         </div>
       </div>
@@ -1174,9 +1175,8 @@
       var name = document.getElementById('name').value;
       var email = document.getElementById('email').value;
       var message = document.getElementById('message').value;
-      var mobile = document.getElementById('mobile').value;
       var subject = document.getElementById('subject').value;
-      var body = 'Name: ' + name + '<br/> Email Address: ' + email + '<br/> Mobile Number: '+mobile + '<br/> Message: '+message ;
+      var body = 'Name: ' + name + '<br/> Email Address: ' + email + '<br/> Message: '+message ;
 
           Email.send({
 SecureToken : "c31ce42f-aba8-4929-85a6-1e32efde1861",
