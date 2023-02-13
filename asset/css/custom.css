@@ -74,3 +74,42 @@ File Description: Place here your custom CSS styles
 @media (min-width: 800px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }
+.sidenav {
+  height: 100%;
+  width: 250px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin: 4vh;
+}
+
+.sidenav a {
+  border-bottom: #8D0000;
+  border-width: 1px;
+  border-color: #8D0000;
+  border-style:solid;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #8D0000;
+}
+
+/* .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+} */
+
+@media screen and (max-height: 1200px) {
+  .sidenav {
+    width: 0px;
+  }
+}
