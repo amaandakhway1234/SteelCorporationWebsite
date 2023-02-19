@@ -114,15 +114,3 @@ File Description: Place here your custom CSS styles
   }
 }
 
-
-@media (min-width: 768px){
-.col-sm-offset-1 {
-    margin-left: 11.333333%;
-}
-.col-lg-offset-1{
-  margin-left: 12.333333%;
-}
-.col-lg-offset-0{
-  margin-left: 4%;
-}
-}
