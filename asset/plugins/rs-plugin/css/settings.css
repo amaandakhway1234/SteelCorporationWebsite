@@ -2868,15 +2868,15 @@ border-style:none;
 
 											}
 
-.tp-rightarrow.preview4:after
+/* .tp-rightarrow.preview4:after
 {
     content: '\e825';
-}
+} */
 
-.tp-leftarrow.preview4:after
+/* .tp-leftarrow.preview4:after
 {
     content: '\e824';
-}
+} */
 
 .tparrows.preview4 .tp-arr-allwrapper
 {

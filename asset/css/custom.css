@@ -62,15 +62,6 @@ File Description: Place here your custom CSS styles
 }
 
 
-.card {
-  padding: 1rem;
-}
-.cards {
-  padding: 2vh;
-  margin: 0 auto;
-  display: grid;
-  gap: 1rem;
-}
 @media (min-width: 800px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }
@@ -114,3 +105,26 @@ File Description: Place here your custom CSS styles
   }
 }
 
+.card {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  margin: 10vh;
+  display: grid;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  gap: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .cards { grid-template-columns: repeat(1, 1fr); }
+  .cards_pad{
+    padding-left: revert;
+    padding-right: revert;
+    margin: revert;
+  }
+}
