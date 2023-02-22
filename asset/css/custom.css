@@ -127,4 +127,7 @@ File Description: Place here your custom CSS styles
     padding-right: revert;
     margin: revert;
   }
+  .pad_text{
+    padding: 10vh;
+  }
 }
